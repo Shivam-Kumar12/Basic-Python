@@ -1,7 +1,7 @@
 mydict={
          "Fast" :"IN A quick manner",
          "Harry"  : "A Coder",
-         "shivam" : "is a good coder",
+         "shivam" : "is a good cooder",
          "Marks" :  [1,2,5] ,
          "another" :{'Shivam': 'player'} # nested dictionay
       }
