@@ -1,0 +1,15 @@
+from tkinter import*
+# import tkinter as tk
+root=Tk()   
+root.geometry('500x500')
+root.title('Tesla')
+root.wm_iconbitmap("tesla.ico")
+                       # (PACK()(side=left right top bottom))
+# Label(root,text="hello Everyone",font="arial 20 bold").pack()
+                        # (GRID()(row= ,column))
+# Label(root,text="yes sir",font="arial 20 bold").grid(row=0,column=0)
+# Label(root,text="yes sir 2",font="arial 20 bold").grid(row=0,column=1)
+# Label(root,text="yes sir 2",font="arial 20 bold").grid(row=1,column=0)
+                        # (PLACE() (x-axis= ,y-axis=))
+Label(root, text = 'Click Any One :', font = 'arial 15 bold').place(x=40, y=80)
+root.mainloop()
